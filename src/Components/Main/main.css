@@ -1,0 +1,132 @@
+.main{
+   
+    height: 50vh;
+    background-color: antiquewhite  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+  
+}
+.u-burger{
+    width: 30vw;
+    height: 10vh;
+    background-color:#703b09;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    justify-content: center;
+    border: 1px solid red;
+}
+.u-burger >p{
+    color: red;
+    text-align: center;
+    
+}
+.ingredients{
+    padding: 2%;
+    width: 30vw;
+    height: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.d-burger{
+    width: 30vw;
+    height: 10vh;
+    background-color:#703b09;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    justify-content: center;
+    border: 1px solid red;
+
+}
+.Result{
+    height: 40vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    text-align: center;
+    padding: 1rem;
+}
+.more{
+    font-size: 18px;
+}
+.less{
+    font-size: 18px;
+    width: 4vw;
+    text-align: center;   
+}
+
+.lettuce{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: 15%;
+    justify-content: space-evenly;
+}
+.lettuce >a{
+    width: 90px;
+    font-size: 20px;   
+}
+.BurgerIngredient__Lettuce__zoLnB {
+    width: 35vw;
+    height: 4vh;
+    margin: 10px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#228c1d),to(#91ce50));
+    background: -webkit-linear-gradient(#228c1d,#91ce50);
+    background: -o-linear-gradient(#228c1d,#91ce50);
+    background: linear-gradient(#228c1d,#91ce50);
+    border-radius: 20px;
+}
+.BurgerIngredient__Bacon__2RZZH {
+    width: 30vw;
+    height: 2vh;
+    margin: 10px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#bf3813),to(#c45e38));
+    background: -webkit-linear-gradient(#bf3813,#c45e38);
+    background: -o-linear-gradient(#bf3813,#c45e38);
+    background: linear-gradient(#bf3813,#c45e38);
+    /* margin: 2% auto; */
+}
+.BurgerIngredient__Cheese__1eqwP {
+    width: 38vw;
+    height: 3vh;
+
+
+    /* margin: 2% auto; */
+    background: -webkit-gradient(linear,left top,left bottom,from(#f4d004),to(#d6bb22));
+    background: -webkit-linear-gradient(#f4d004,#d6bb22);
+    background: -o-linear-gradient(#f4d004,#d6bb22);
+    background: linear-gradient(#f4d004,#d6bb22);
+    border-radius: 20px;
+}
+.BurgerIngredient__Meat__1LdrR {
+    width: 35vw;
+    height: 5vh;
+    margin: 10px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#7f3608),to(#702e05));
+    background: -webkit-linear-gradient(#7f3608,#702e05);
+    background: -o-linear-gradient(#7f3608,#702e05);
+    background: linear-gradient(#7f3608,#702e05);
+    /* margin: 2% auto; */
+    border-radius: 15px;
+}
+.signup{
+    text-align: center;
+    font-size: 18px;
+    padding: 2rem;
+}
+.signup >button{
+    width: 200px;
+    
+    font-size: 20px;
+    text-align: center;
+    
+}

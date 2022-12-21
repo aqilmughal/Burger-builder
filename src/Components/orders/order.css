@@ -1,0 +1,22 @@
+.order_l{
+    border: 1px solid red;
+    margin: 2%;
+    width: 90%;
+    height: 20vh;
+    font-size: 15px;
+    
+}
+
+.i_l{
+    border: 1px solid red;
+    font-size: 15px;
+    display: flex;
+    padding-left: 5rem;
+}
+
+.price{
+    width: 10vw;
+    margin: 2%;
+    
+    border: 1px solid red;
+}

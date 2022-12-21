@@ -1,0 +1,31 @@
+.login_main{
+    display: flex;
+    justify-content: center;
+    
+}
+.login_main >form{
+    width: 30vw;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+form >label{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+form >input{
+    
+    height: 25px;
+}
+form > button{
+    
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background: none;
+}
