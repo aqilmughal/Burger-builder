@@ -25,16 +25,18 @@
     padding-top: 2rem;
     padding-right: 5%;
 }
-.active, .builder1:hover {
+.builder1 {
    
     background-color: #703b09;
     font-size: 20px;
     color: white; 
     padding: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem; 
     margin: 1rem    ;  
     text-decoration: none;
     outline: none;
+    position: relative;
+                    
     /* transition-duration: 0.2s;
     cursor: pointer;
     opacity: 0.9; */
@@ -42,14 +44,13 @@
         
 .builder{
     /* border: 1px solid red; */
-    background-color: white;
-    color: black;
+    background-color: #703b09;
+    color: white;
     font-size: 20px;
     text-decoration: none;
-    padding: 25px;
-    padding-bottom: 1rem;  
-    text-decoration: none;
-    text-align: center;
+    position: relative;
+    /* padding-bottom: 1rem;   */
+    /* text-align: center; */
 
    
   
