@@ -19,7 +19,7 @@ function Main() {
       return obj;
     });
     setIngredient(newState); 
-    pricing() 
+    pricing()     
   } 
 
   function pricing( ){
